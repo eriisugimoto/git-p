@@ -1,6 +1,24 @@
-- Draft-
+## Draft
 
-##Basic Workflow for Contributing/Developing a New Feature
+## How to Get Started with Somebody else's GitHub Repository
+1. fork the repo you want to work on by clicking "fork"
+2. clone the repo to your desktop. In your terminal, type the following:
+```git clone --recursive https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git```
+3. set up a remote named origin. In your terminal, type the following:
+```git remote add origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git```
+4. set up a remote named remote. In your terminal, type the following:
+```git remote add origin https://github.com/OWNER_USERNAME/REPOSITORY_NAME.git```
+5. run ```git remote -v``` to check the status of your remote setup. You should see the following:
+> origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git (fetch) 
+
+> origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git (push)
+
+> upstream https://github.com/OWNER_USERNAME/REPOSITORY_NAME.git (fetch)
+
+> upstream https://github.com/OWNER_USERNAME/REPOSITORY_NAME.git (push)
+
+
+## Basic Workflow for Contributing/Developing a New Feature
 1. Make sure to be on your master branch.
 - To check which branch your currently on: ```git branch```
 
@@ -23,7 +41,7 @@
 
 
 
-#Branching
+# Branching
 
 
 
@@ -42,6 +60,6 @@ Useful Commands for Branching
 
 
 
-#NOTE
+# NOTE
 - You need to commit your changes or stash them before you can switch branches; otherwise, your local changes will be overwritten.
 - ```git pull upstream master``` is same as ```git fetch upstream``` + ```git merge upstream/master```
