@@ -56,9 +56,10 @@ Useful Commands for Branching
 - To create a new branch: ```git branch new_branch_name```
 
 - To create a new branch and switch to that branch: ```git branch -b new_branch_name```
-- To list 
 
+- To list all your remotes:  ```git remote -v```
 
+- to change remote's URL: ```git remote set-url REMOTE_NAME NEW_URL```
 
 # NOTE
 - You need to commit your changes or stash them before you can switch branches; otherwise, your local changes will be overwritten.
