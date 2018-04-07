@@ -64,3 +64,6 @@ Useful Commands for Branching
 # NOTE
 - You need to commit your changes or stash them before you can switch branches; otherwise, your local changes will be overwritten.
 - ```git pull upstream master``` is same as ```git fetch upstream``` + ```git merge upstream/master```
+
+# A LIST OF USEFUL COMMANDS
+- To change a remote's URL: ```git remote set-url origin https://github.com/USERNAME/REPOSITORY.git```
