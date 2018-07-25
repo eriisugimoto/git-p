@@ -66,4 +66,5 @@ Useful Commands for Branching
 - ```git pull upstream master``` is same as ```git fetch upstream``` + ```git merge upstream/master```
 
 # A LIST OF USEFUL COMMANDS
-- To change a remote's URL: ```git remote set-url origin https://github.com/USERNAME/REPOSITORY.git```
+- To change a remote's URL: ```git remote set-url origin https://github.com/USERNAME/REPOSITORY.git``` or ```git remote set-url origin git@github.com:USERNAME/REPOSITORY.git```
+- To find out the exact commit that made an unwanted change: ```git bisect A_KNOWN_GOOD_COMMIT_ID``` ...To be added
